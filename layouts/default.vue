@@ -19,6 +19,12 @@
 
 <style scoped>
     .router-link-exact-active{
-        color: rgb(18, 52, 199)
+        align-items: center;
+        color: rgb(27, 53, 167);
+        text-decoration: none;   /* underline */
+        font-weight: bold;     
+
+        margin: 0 8px;          /* Space between each link */
+        padding: 5 10px;      /* Padding around the link text */
     }
 </style>

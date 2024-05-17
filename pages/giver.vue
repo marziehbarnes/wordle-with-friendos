@@ -2,7 +2,7 @@
   TODO:
   TEXTBOX
   - Textbox -> event listeners -> simple backend -> propgate to guesers
-  -   RETURN TO GEUSSER POV (PROBABLY SAME APPLET CONSTRUCT/HTML/REDIRECT?)
+  -   RETURN TO GEUSSER POV (PROBABLY SAME APPLET CONSTRUCT/REDIRECT?)
   -  
 
   Few (not so fun) IDEAS: 
