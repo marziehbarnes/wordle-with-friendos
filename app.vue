@@ -1,7 +1,13 @@
 <template>
-  <div>
-    <!-- <h1>wordle-with-friends</h1> -->
-    <NuxtLayout />
-    <NuxtPage /> <!-- app.vue req for page table init?-->
-  </div>
+  <v-container>
+    <v-col>
+      <v-row>
+        <Letter letter="L" />
+        <Letter letter="L" />
+        <Letter letter="L" />
+        <Letter letter="L" />
+        <Letter letter="L" />
+      </v-row>
+    </v-col>
+  </v-container>
 </template>
