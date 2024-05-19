@@ -12,16 +12,13 @@
   - longer than 5 letter words? 
 
 -->
-
+<!-- 
 <script setup lang="ts">
 const { data } = await useFetch('/api/giver')
 const message = ref('')
-</script>
+</script> -->
 
 <template>
   <h1>Enter a 5 letter word!</h1>
-  <p>Message is: {{ message }}</p>
-  <input v-model="message" placeholder="wordle me" />
-  <p>Result of /api/hello </p>
-  <pre>{{ data }}</pre>
+
 </template>

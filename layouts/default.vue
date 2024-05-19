@@ -5,7 +5,6 @@
               <ul>
                 <li><NuxtLink to="/">home</NuxtLink></li>
                 <li><NuxtLink to="/giver">giver</NuxtLink></li> <!-- MUTEX? LOCK? something.. -->
-                <li><NuxtLink to="/guesser">guesser</NuxtLink></li>
               </ul>
             </nav>
           </header>

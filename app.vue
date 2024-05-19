@@ -1,5 +1,7 @@
 <template>
-  <v-container>
+  <NuxtLayout />
+  <NuxtPage />
+  <!-- <v-container>
     <v-col>
       <v-row>
         <Letter letter="L" />
@@ -9,5 +11,5 @@
         <Letter letter="L" />
       </v-row>
     </v-col>
-  </v-container>
+  </v-container> -->
 </template>
