@@ -12,13 +12,25 @@
   - longer than 5 letter words? 
 
 -->
-<!-- 
-<script setup lang="ts">
-const { data } = await useFetch('/api/giver')
-const message = ref('')
-</script> -->
+
+<script setup>
+    // submit() {
+    //   // so stuff
+    // }
+</script> 
 
 <template>
   <h1>Enter a 5 letter word!</h1>
 
+    <v-responsive
+      class="mx-auto"
+      max-width="344"
+    >
+    <!--         @keydown.enter="submit" testing submit methods
+                @onButtonPress? -->
+      <v-text-field
+        label="Wordle Me"
+        clearable
+      ></v-text-field>
+    </v-responsive>
 </template>
