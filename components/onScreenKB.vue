@@ -1,7 +1,7 @@
 <script setup>
     import Keyboard from 'simple-keyboard';
     import 'simple-keyboard/build/css/index.css';
-    import  {ref, onMounted} from "vue";
+    import  {ref, onMounted, reactive} from "vue";
 
     const emit = defineEmits(["onKeyPress"]); //list for possible thrown objects, only care about on key press handle natural keyboard inputs elsewhere
     const kb = ref(null); //init keyboard default obj
@@ -31,6 +31,10 @@
     </div>
 </template>
 
-<style scoped>
+<style>
+    my-simple-keyboard{
+        color: rgb(19, 239, 255);
+        background: rgb(255, 74, 74);
+    }
 
 </style>
