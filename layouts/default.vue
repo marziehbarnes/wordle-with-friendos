@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="header"> <!--probably replace entire template with vuetify class-->
         <header>
             <nav>
               <ul>
@@ -17,6 +17,9 @@
 </template>
 
 <style scoped>
+  .header{
+    background-color: grey;
+  }
     .router-link-exact-active{
         align-items: center;
         color: rgb(27, 53, 167);

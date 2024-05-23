@@ -31,13 +31,20 @@ const handleInput = (key) => { //handle on screen KB inputs (for now just loggin
 </script>
 
 <template>
-  
-  <div class="kb">
-    <onScreenKB @onKeyPress="handleInput" />
+  <div class="page">
+    <div class="kb">
+      <onScreenKB @onKeyPress="handleInput" />
+    </div>
   </div>
+
 </template>
 
 <style>
+.page{
+  width: auto;
+  height: 2000px;
+  background-color: grey
+}
 .kb {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

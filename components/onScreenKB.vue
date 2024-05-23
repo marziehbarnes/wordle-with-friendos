@@ -32,9 +32,5 @@
 </template>
 
 <style>
-    my-simple-keyboard{
-        color: rgb(19, 239, 255);
-        background: rgb(255, 74, 74);
-    }
 
 </style>
