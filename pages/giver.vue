@@ -21,7 +21,7 @@
 
 <template>
   <h1>Enter a 5 letter word!</h1>
-
+   <li><NuxtLink to="/guesser">home</NuxtLink></li>
     <v-responsive
       class="mx-auto"
       max-width="344"

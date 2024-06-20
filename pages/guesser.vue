@@ -41,8 +41,8 @@ const drawer = ref(null)
   <v-app id="template">
     <v-navigation-drawer v-model="drawer">
       <li><NuxtLink to="/">home</NuxtLink></li>
-      <router-link to="/giver">Go to Guesser</router-link>
-      <li><NuxtLink to="/giver">Guesser</NuxtLink></li> <!-- MUTEX? LOCK? something.. -->
+      <router-link to="/giver">Go to Giver</router-link>
+      <li><NuxtLink to="/giver">giver</NuxtLink></li> <!-- MUTEX? LOCK? something.. -->
     </v-navigation-drawer>
 
     <v-app-bar>
